@@ -1,0 +1,10 @@
+.RsvInputrow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 10%;
+    align-items: center;
+    grid-gap: 3%;
+}
+.RSVnamebuttons{
+    align-self: end;
+    margin-bottom: 4%;
+}

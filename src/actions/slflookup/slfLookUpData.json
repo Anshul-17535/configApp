@@ -1,0 +1,49 @@
+{
+    "FormName":"SLF Look Up",
+    "HasSubForms":"false",
+    "Fields":[
+      {
+        "label": "LookUp Name",
+        "mandatory": false,
+        "type": "text",
+        "fieldValue": "",
+        "name": "lookupTypeName",
+        "tooltip": "",
+        "min": "",
+        "max": "",
+        "maxlength": "",
+        "autoFocus": "",
+        "pattern": "",
+        "isArray":"false",
+        "arrayData":[],
+        "defaultValue":"",
+        "hasInnerFields":false,
+        "gridDisplay":true,
+        "formDisplay":true,
+        "error":false,
+        "errorMsg":""
+      },
+      {
+        "label": "LookUp Type",
+        "mandatory": false,
+        "type": "text",
+        "fieldValue": "",
+        "name": "lookupType",
+        "tooltip": "",
+        "min": "",
+        "max": "",
+        "maxlength": "",
+        "autoFocus": "",
+        "pattern": "",
+        "isArray":"false",
+        "arrayData":[],
+        "defaultValue":"",
+        "hasInnerFields":false,
+        "gridDisplay":true,
+        "formDisplay":true,
+        "error":false,
+        "errorMsg":""
+      }
+    ]
+  }
+  

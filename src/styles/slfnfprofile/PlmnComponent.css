@@ -1,0 +1,9 @@
+.plmnComponent{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+}
+.plmnComponent>*{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}

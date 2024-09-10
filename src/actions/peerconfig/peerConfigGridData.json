@@ -1,0 +1,49 @@
+{
+    "FormName":"Peer Config",
+    "HasSubForms":"false",
+    "Fields":[
+      {
+        "label": "Profile Name",
+        "mandatory": false,
+        "type": "text",
+        "fieldValue": "",
+        "name": "profileName",
+        "tooltip": "",
+        "min": "",
+        "max": "",
+        "maxlength": "",
+        "autoFocus": "",
+        "pattern": "",
+        "isArray":"false",
+        "arrayData":[],
+        "defaultValue":"",
+        "hasInnerFields":false,
+        "gridDisplay":true,
+        "formDisplay":true,
+        "error":false,
+        "errorMsg":""
+      },
+      {
+        "label": "Peer Address Type",
+        "mandatory": false,
+        "type": "text",
+        "fieldValue": "",
+        "name": "peerAddressType",
+        "tooltip": "",
+        "min": "",
+        "max": "",
+        "maxlength": "",
+        "autoFocus": "",
+        "pattern": "",
+        "isArray":"false",
+        "arrayData":[],
+        "defaultValue":"",
+        "hasInnerFields":false,
+        "gridDisplay":true,
+        "formDisplay":true,
+        "error":false,
+        "errorMsg":""
+      }
+    ]
+  }
+  

@@ -1,0 +1,18 @@
+.addRuleTriggerContainer{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+div.csfWidgets.Select-placeholder{
+    color: #5d5d5f !important;
+}
+#selectItemIDbnbmbmbmctdxv{
+    margin-right: 20px;
+}
+div.Select-input{
+    display: inline-block !important;
+    overflow: hidden !important;
+}
+.ruleTriggerFormFooter{
+    display: flex;
+    column-gap: 1rem;
+}

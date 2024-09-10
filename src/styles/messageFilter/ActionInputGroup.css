@@ -1,0 +1,39 @@
+.MFfilterActionGroup{
+    width: auto;
+    min-width: 200px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+.MFfilterActionGroup>*{
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+.actionDot{
+    font-size: xxx-large;
+    margin-top: -0.4rem;
+}
+.paramNameAndValsInputGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.paramNameAndValsInputGroup>*{
+    margin-right: 1rem;
+}
+.actionBracket{
+    font-size: xxx-large;
+    margin-top: -0.4rem;
+}
+.individualParamGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.individualParamGroup>*{
+    margin-right: 1rem;
+}

@@ -1,0 +1,31 @@
+.csfWidgets .right-pane.vert{
+    min-width:82% !important;
+    max-width:100% !important;
+}
+.csfWidgets .left-pane.vert.temp.active{
+    max-width: 23% !important;
+}
+.csfWidgets  screen-vertical{
+    width: 20%;
+}
+.csfWidgets.formLayout .col-md-4{
+    margin-right:0px !important;
+    margin-left:0px !important;
+}
+.spinner has-outline {
+    min-width:177px !important;
+}
+/* .fieldWidth{
+    width:20%;
+} */
+.row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.content-container{
+    overflow-y:auto !important;
+}
+.search-with-chips__item .chips{
+    display:inherit !important;
+}
+

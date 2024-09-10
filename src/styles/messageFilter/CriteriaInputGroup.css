@@ -1,0 +1,56 @@
+.MFfilterCriteriaGroup{
+    width: auto;
+    min-width: 200px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+.MFfilterCriteriaGroup>*{
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+.criteriaDot{
+    font-size: xxx-large;
+    margin-top: -0.4rem;
+}
+.paramNameAndValsInputGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.paramNameAndValsInputGroup>*{
+    margin-right: 1rem;
+    flex-wrap: wrap;
+}
+.criteriaBracket{
+    font-size: xxx-large;
+    margin-top: -0.4rem;
+}
+.individualParamGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.individualParamGroup>*{
+    margin-right: 1rem;
+}
+.search-with-chips__content-wrapper.search-with-chips__has-border{
+    min-width: 200px;
+    width: auto;
+
+}
+.search-with-chips{
+    width: unset;
+}
+.ErrState{
+    border: solid crimson;
+    padding-left: 0;
+    padding-right: 0;
+}
+.multipleValuesGroup{
+    display:flex;
+    flex-direction: column;
+}

@@ -1,0 +1,197 @@
+{
+  "MenuItems": [
+    {
+      "index": 0,
+      "id" : "ScpRulesengine",
+      "label" : "SCP Rules Engine",
+      "expand": false,
+      "icon": "RuleIcon",
+      "subMenus": []
+    },
+    {
+      "index": 1,
+      "id" : "NrfpRulesengine",
+      "label" : "NRFP Rules Engine",
+      "expand": false,
+      "icon": "nrfpRule",
+      "subMenus": []
+    },
+    {
+      "index": 2,
+      "id" : "Probing Statistics",
+      "label" : "Probing Statistics",
+      "expand": false,
+      "icon": "probStat",
+      "subMenus": []
+    },
+    {
+      "index": 3,
+      "id" : "StaticProfile",
+      "label" : "Static Peer NF Config",
+      "expand": false,
+      "icon": "staticProfile",
+      "subMenus": []
+    },
+    {
+      "index": 4,
+      "id" : "Tracing",
+      "label" : "Tracing",
+      "expand": true,
+      "carriedIndex":0,
+      "icon": "TraceIcon",
+      "subMenus": [
+        
+          {
+            "index": 0,
+            "carriedIndex":4,
+            "id": "MessageFilter",
+            "label": "Tracing Config",
+            "expand": false,
+            "icon": "File",
+            "subMenus": []
+          },
+          {
+            "index": 1,
+            "carriedIndex":4,
+            "id": "Tracing Profile",
+            "label": "Tracing Profile",
+            "expand": false,
+            "icon": "File",
+            "subMenus": []
+          },
+          {
+            "index": 2,
+            "carriedIndex":4,
+            "id": "Destination Tracing",
+            "label": "Tracing Destination",
+            "expand": false,
+            "icon": "File",
+            "subMenus": []
+          }
+    ]
+    },
+    {
+      "index": 5,
+      "id" : "Mediation",
+      "label" : "Mediation",
+      "expand": true,
+      "carriedIndex":0,
+      "icon": "mediation",
+      "subMenus": [
+        
+          {
+            "index": 0,
+            "carriedIndex":5,
+            "id": "Mediation Profile Config",
+            "label": "Mediation Profile Config",
+            "expand": false,
+            "icon": "File",
+            "subMenus": []
+          },
+          {
+            "index": 1,
+            "carriedIndex":5,
+            "id": "Field Definition Config",
+            "label": "Field Definition Config",
+            "expand": false,
+            "icon": "File",
+            "subMenus": []
+          }
+    ]
+    }
+    ,
+    {
+      "index": 6,
+      "id": "thr",
+      "label": "Throttling ",
+      "expand": true,
+      "icon": "throttling",
+      "carriedIndex":0,
+      "subMenus": [
+        {
+          "index": 0,
+          "carriedIndex":6,
+          "id": "Throttling Profile",
+          "label": "Throttling Profile",
+          "expand": false,
+          "icon": "File",
+          "subMenus": []
+        },
+        {
+          "index": 1,
+          "carriedIndex":6,
+          "id": "Peer Config",
+          "label": "Peer Config",
+          "expand": false,
+          "icon": "File",
+          "subMenus": []
+        },
+        {
+          "index": 2,
+          "carriedIndex":6,
+          "id": "Throttling Config",
+          "label": "Throttling Config",
+          "expand": false,
+          "icon": "File",
+          "subMenus": []
+        }
+      ]   
+    },
+    {
+      "index": 7,
+      "id": "slf",
+      "label": "Subscriber Location Function ",
+      "expand": true,
+      "icon": "slf",
+      "carriedIndex":0,
+      "subMenus": [
+        {
+          "index": 0,
+          "carriedIndex":7,
+          "id": "SlfConfiguration",
+          "label": "SLF Configuration",
+          "expand": false,
+          "icon": "File",
+          "subMenus": []
+          
+        },
+        {
+          "index": 1,
+          "carriedIndex":7,
+          "id": "SlfDestinationMap",
+          "label": "SLF Destination Map",
+          "expand": false,
+          "icon": "File",
+          "subMenus": []
+        },
+        {
+          "index": 2,
+          "carriedIndex":7,
+          "id": "SlfLookUp",
+          "label": "SLF Lookup Table",
+          "expand": false,
+          "icon": "File",
+          "subMenus": []
+        },
+	      {
+          "index": 3,
+          "carriedIndex":7,
+      	  "id" : "SlfNfService",
+          "label" : "SLF NFService",
+          "expand": false,
+          "icon": "File",
+          "subMenus": []
+        },
+        {
+          "index": 4,
+          "carriedIndex":7,
+      	  "id" : "SlfNfProfile",
+          "label" : "SLF NFProfile",
+          "expand": false,
+          "icon": "File",
+          "subMenus": []
+        }
+      ]
+    }
+  ]
+}

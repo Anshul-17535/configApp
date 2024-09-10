@@ -1,0 +1,14 @@
+{
+  "distributionList":[],
+  "smProvState":"",
+  "modifiedBy":"",
+  "modifiedDate":"",
+  "rsvName":"",
+  "description":"",
+  "state":"",
+  "activateState":"",
+  "lastChangeTimestamp":"",
+  "activeList":[],
+  "RsvData": [],
+  "ruleSetNames":["nbsf-management|/pcfBindings|post|request"]
+}

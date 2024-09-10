@@ -1,0 +1,72 @@
+{
+    "FormName":"SLF Destination Map",
+    "HasSubForms":"false",
+    "Fields":[
+      {
+        "label": "id",
+        "index": 0,
+        "mandatory": false,
+        "type": "number",
+        "fieldValue": "",
+        "placeholder": "",
+        "name": "id",
+        "tooltip": "",
+        "min": "",
+        "max": "",
+        "maxlength": "",
+        "autoFocus": "true",
+        "pattern": "",
+        "isArray":"false",
+        "arrayData":[],
+        "text": "",
+        "defaultValue":"",
+        "hasInnerFields":false,
+        "gridDisplay":false,
+        "formDisplay":false
+      },
+      {
+        "label": "Map Pattern",
+        "mandatory": false,
+        "type": "text",
+        "fieldValue": "",
+        "name": "mapPattern",
+        "tooltip": "",
+        "min": "",
+        "max": "",
+        "maxlength": "",
+        "autoFocus": "",
+        "pattern": "",
+        "isArray":"false",
+        "arrayData":[],
+        "defaultValue":"",
+        "hasInnerFields":false,
+        "gridDisplay":true,
+        "formDisplay":true,
+        "error":false,
+        "errorMsg":""
+      },
+      {
+        "label": "Destination Id",
+        "mandatory": false,
+        "type": "text",
+        "fieldValue": "",
+        "name": "destinationId",
+        "tooltip": "",
+        "min": "",
+        "max": "",
+        "maxlength": "",
+        "autoFocus": "",
+        "pattern": "",
+        "isArray":"false",
+        "arrayData":[],
+        "defaultValue":"",
+        "hasInnerFields":false,
+        "gridDisplay":true,
+        "formDisplay":true,
+        "error":false,
+        "errorMsg":""
+      }
+      
+    ]
+  }
+  

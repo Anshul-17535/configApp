@@ -1,0 +1,51 @@
+{
+    "FormName":"Throttling",
+    "HasSubForms":"false",
+    "Fields":[
+      {
+        "label": "Throttling Name",
+        "mandatory": false,
+        "type": "text",
+        "fieldValue": "",
+        "placeholder": "Specify the Throttling name",
+        "name": "name",
+        "tooltip": "",
+        "min": "",
+        "max": "",
+        "maxlength": "",
+        "autoFocus": "",
+        "pattern": "",
+        "isArray":"false",
+        "arrayData":[],
+        "defaultValue":"",
+        "hasInnerFields":false,
+        "gridDisplay":true,
+        "formDisplay":true,
+        "error":false,
+        "errorMsg":""
+      },
+      {
+        "label": "Throttling Type",
+        "mandatory": false,
+        "type": "text",
+        "fieldValue": "",
+        "placeholder": "Specify the Throttling Type",
+        "name": "type",
+        "tooltip": "",
+        "min": "",
+        "max": "",
+        "maxlength": "",
+        "autoFocus": "",
+        "pattern": "",
+        "isArray":"false",
+        "arrayData":[],
+        "defaultValue":"",
+        "hasInnerFields":false,
+        "gridDisplay":true,
+        "formDisplay":true,
+        "error":false,
+        "errorMsg":""
+      }
+    ]
+}
+  

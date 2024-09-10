@@ -1,0 +1,10 @@
+.allowedNssaisComponent{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    margin-bottom: -0.59rem !important;
+}
+.allowedNssaisComponent>*{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}

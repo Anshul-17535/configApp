@@ -1,0 +1,31 @@
+.chevron-indicator{
+    height: 24px;
+    width: 24px;
+    float: right;
+    opacity: 0.54;
+    transform: rotate(180deg);
+    transition: all 300ms;
+  }
+  
+.chevron-indicator-open{
+    transform: rotate(-90deg);
+    transition: all 300ms;
+}
+
+.ActionChevronGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Action-delete-button{
+    display: flex;
+}
+.actionIndComponentContainer:not(:last-child){
+    margin-bottom: 4px;
+    box-shadow: none !important;
+}
+.actionIndComponentContainer{
+    border-width: 1px;
+    border-color: #e1e1e1;
+    border-style: solid;
+}

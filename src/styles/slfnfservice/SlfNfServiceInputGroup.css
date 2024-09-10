@@ -1,0 +1,69 @@
+.SlfNfServiceInputGroupContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.spinnerRadioGroup{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column: 1/4;
+    grid-gap: 1rem;
+}
+.SlfNfServiceIpEndPoint{
+    display: grid;
+    grid-column: 1/4;
+}
+.ipendpointsInputGroup{
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-start;
+}
+.ipendpointsInputGroup>*{
+    margin-right: 2rem;
+}
+.ipEndPointList{
+    margin-top: 1rem;
+    overflow-y: auto;
+    height: 58vh;
+}
+.ipEndPointList>*{
+    margin-top: 0.5rem;
+}
+.nfServiceFooter{
+    display: flex;
+    justify-content: center;
+}
+.search-with-chips{
+    padding-left: 0px !important;
+}
+
+.nfserviceSetIdLabel,.allowedNfDomainsLabel{
+    margin:0px;
+    padding-bottom: 1px;
+    color: #888;
+
+}
+.nfserviceSetIdListField, .plmnListComponent,.allowedNssaisListComponent,.defaultNotificationSubscriptionsListComponent,.versionsListComponent,.chfServiceInfoComponent,.allowedNfDomainsField{
+    display: grid;
+    grid-column: 1/4;
+}
+.tab-content{
+    overflow-y: auto;
+    height: 61vh;
+}
+
+.search-with-chips__item{
+    display: contents !important;
+}
+.plmnListComponent,.allowedNssaisListComponent,.chfServiceInfoComponent,.defaultNotificationSubscriptionsListComponent,.versionsListComponent,.allowedNssaisComponent{
+    margin-left: 0.1rem;
+    margin-right: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.cardHeaderButtonGroup h2{
+    color: #888;
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -1,0 +1,11 @@
+.RuleTagList{
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #BFBFBF;
+    display: flex;
+    flex-direction: row;
+}
+
+.RuleTagList>*{
+    margin-right: 10px;
+}

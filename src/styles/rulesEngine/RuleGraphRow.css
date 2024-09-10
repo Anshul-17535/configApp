@@ -1,0 +1,7 @@
+.profileBranchArrow {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 0px 10px 15px;
+    min-width: 49px;
+    /*background-image: url('../images/arrow-left-right.png');*/
+}

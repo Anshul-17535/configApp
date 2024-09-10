@@ -1,0 +1,16 @@
+p.actionText.Required::after{
+    content: "*";
+    color: red;
+}
+.MF-Button-Group{
+    display:flex;
+    align-items: baseline;
+}
+.MfIndComponentContainer{
+    border-width: 1px;
+    border-color: #e1e1e1;
+    border-style: solid;
+}
+.MfIndComponentContainer:not(:last-child){
+    margin-bottom: 4px;
+}

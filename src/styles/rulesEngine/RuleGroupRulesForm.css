@@ -1,0 +1,145 @@
+.basicTab1{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    align-items: center;
+    width: 97% !important;
+    height: 46vh !important;
+    overflow: scroll !important;
+}
+.basicTab1>*{
+    margin: 0.5rem;
+}
+.rowGroup{
+    display: flex;
+    align-items: center;
+    width: 100vh;
+    
+}
+.rowGroup>*{
+    margin-right: 4%;
+}
+div.layout-pane{
+    width: 54.5446% !important;
+    height: fit-content !important;
+}
+
+.toplevelrulegroup{
+    margin-top: 15px;
+    min-width: fit-content;
+}
+.footerbuttons{
+    display: flex;
+    column-gap: 1rem;
+    
+}
+.RulesTab>*{
+    display: grid;
+    grid-template-columns:32px 1fr;
+}
+
+
+.RulesTab{
+    overflow-y: auto !important;
+    width: 100% !important;
+    height: 42vh !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.scroll-button-right{
+    display: none !important;
+}
+.conditions{
+    margin-top: 13px;
+}
+.addNewRuleButton{
+    top: 41%;
+    right: 2%;
+    padding-right: 10px;
+}
+
+.addNewRuleButton{
+    margin-top: 5px;
+}
+.content-container{
+    overflow-y:hidden !important;
+}
+div.layout-pane{
+    overflow-y: hidden !important;
+}
+div.RuleListSaveBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+div.RuleListSaveBtn>*:not(:first-child){
+    margin-left: 2%;
+}
+.RulesTabContainer{
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 960px) {
+
+    .footerbuttons{
+        display: flex;
+        column-gap: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 751px) {
+
+    .footerbuttons{
+        display: flex;
+        column-gap: 1rem;
+    }
+    .csfWidgets.textAreaContainer{
+        width:87%
+    }
+    .RulesTab{
+        width: 97.7% !important;
+    }
+  }
+
+  @media only screen and (max-width: 980px) {
+
+    .footerbuttons{
+        display: flex;
+        column-gap: 1rem;
+    }
+    .csfWidgets.textAreaContainer{
+        width:87%
+    }
+  }
+  @media only screen and (max-width: 1102px) {
+    .RulesTab{
+        width: 99.7% !important;
+    }
+
+  }
+  @media only screen and (max-width: 993px) {
+    .RulesTab{
+        width: 99.3% !important;
+    }
+
+  }
+  @media only screen and (max-width: 880px) {
+    .RulesTab{
+        width: 98.7% !important;
+    }
+
+  }
+  @media only screen and (max-width: 745px) {
+    .RulesTab{
+        width: 97.7% !important;
+    }
+
+  }
+  @media only screen and (max-width: 612px) {
+    .RulesTab{
+        width: 96.4% !important;
+    }
+
+  }

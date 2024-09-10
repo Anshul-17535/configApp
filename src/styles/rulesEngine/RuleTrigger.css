@@ -1,0 +1,46 @@
+.profileLayoutContainer {
+    display: table-cell;
+    vertical-align: middle;
+}
+.profileTriggerHeader,
+.profileRuleGroupHeader{
+    height: 20px;
+    border-radius: 5px 5px 0 0;
+}
+.profileTrigger-add{
+    background-color: white;
+    color: #474747;
+    cursor: pointer;
+}
+.baseProfileElement.profileTrigger-add:hover{
+    background-color: #676767;
+    color: white;
+}
+.selecttriggergroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.profileTrigger,
+.profileRuleGroup {
+    height: 25px;
+    background-color: #7F7F7F;
+    border: 1px solid #BFBFBF;
+    color: white;
+}
+.baseProfileContainer {
+    display: table-cell;
+    border: 1px solid #BFBFBF;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden !important;
+    background-color: #F2F2F2;
+    font-size: 11px;
+    font-weight: bold;
+    vertical-align: middle;
+    min-width: 120px;
+}
+.baseProfileElement {
+    text-align: center;
+    /*padding: 5px 20px;*/
+    white-space: nowrap;
+}

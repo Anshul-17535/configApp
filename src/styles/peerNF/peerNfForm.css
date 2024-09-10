@@ -1,0 +1,29 @@
+.PeerNFForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 2rem;
+}
+
+.PeerNFForm2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.nfForm {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping to create multiple rows */
+    justify-content: space-between; /* Distribute items along the main axis */
+}
+
+.nfForm > * {
+    flex: 0 0 calc(25% - 10px); /* Each item takes 25% width with some spacing */
+    margin-bottom: 10px; /* Add margin between items */
+}
+
+.formStable{
+    display: flex;
+}

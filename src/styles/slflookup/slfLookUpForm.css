@@ -1,0 +1,25 @@
+.SlfLookUpForm{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap: 3rem;
+    padding-top: 1%;
+}
+.SlfKeyPairForm{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 3rem;
+    padding-top: 1%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerLookUp{
+    position:fixed;
+    bottom:0;
+    margin-left: 45%;
+    margin-bottom: 2%;
+
+}

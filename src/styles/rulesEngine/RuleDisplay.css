@@ -1,0 +1,29 @@
+.Single_rule{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    width: 501px;
+}
+
+.singleRuleHeader{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+.RuleStatusIcon{
+    margin-left: 10px;
+    margin-top: 1rem;
+    width: 1rem;
+}
+.csfWidgets .TextInputContainer {
+    max-width: 455px;
+    margin-top: 1px;
+}
+div.DeleteBtnForRule{
+    margin-top: -118px;
+    margin-left: 503px;
+}
+.RuleNameInput{
+    width: -webkit-fill-available;
+    margin-right: 0.5rem
+}

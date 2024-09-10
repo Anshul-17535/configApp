@@ -1,0 +1,8 @@
+.ag-root.ag-layout-normal {
+    height: 67vh !important;
+}
+div.ag-body-viewport.ag-layout-normal {
+    overflow-x: auto !important;
+    overflow-y: scroll !important;
+    height: 100% !important;
+}

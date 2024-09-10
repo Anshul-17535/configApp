@@ -1,0 +1,22 @@
+.profiletree>*{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.profiletree>*>*{
+    display: grid;
+    align-content: center;
+}
+.profileBranchContainer {
+    padding: 10px;
+    background-repeat: repeat-y;
+    background-position: left center;
+    vertical-align: top;
+}
+.profileBranchDotFull {
+    padding-left: 40px;
+    background-image: url('../images/profile-dot-full.png');
+}
+.profileBranchDotEnd {
+    padding-left: 40px;
+    background-image: url('../images/profile-dot-end.png');
+}

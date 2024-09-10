@@ -1,0 +1,59 @@
+.search-with-chips{
+    padding-left: 0px !important;
+}
+.ipv4AddressesLabel, .ipv6AddressesLabel, .nfSetIdListLabel , .ipv4AddressRangesLabel, .ipv6PrefixRangesLabel, .ipDomainListLabel,.dnnListLabel,.plmnListLabel{
+    margin:0px;
+    padding-bottom: 1px;
+}
+.ipv4AddressListField, .ipv6AddressListField, .nfSetIdListField,.ipDomainListField{
+    display: grid;
+    grid-column: 1/4;
+}
+.search-with-chips__item{
+    display: contents !important;
+}
+.nfProfileFooter{
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+.slfnfprofileform{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.nfprofileotherinputs{
+    display: flex;
+    flex-direction: column;
+}
+.nfprofileotherinputs>*{
+    margin-bottom: 1rem;
+}
+.plmnListHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bsfInfoFormContainer{
+    display: flex;
+    flex-direction: column;   
+    margin-top: 1rem;
+}
+.bsfInfoFormContainer>*{
+    margin-bottom: 1rem;
+}
+.plmnListComponent ,.ipv6PrefixRangesComponent,.ipv4AddressRangesComponent{
+    margin-left: 0.1rem;
+    margin-right: 0.8rem;
+}
+.cardHeaderButtonGroup .bsfinfo_h2{
+    color: #888;
+}
+.slfnfprofileform .Required>* label::after{
+    content: "*";
+    color: red;
+}

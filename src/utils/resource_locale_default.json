@@ -1,0 +1,26 @@
+[
+    {
+        "responseCode": "SMCode000",
+        "mainTitle":"User is not authorized to access this resource",
+        "description":"User is not authorized to access this resource. Please contact the system administrator.",
+        "moreDetails": ""
+    },
+    {
+        "responseCode": "SMCode001",
+        "mainTitle":"Success",
+        "description":" Configuration Created Successfully",
+        "moreDetails": ""
+    },
+    {
+        "responseCode": "SMCode002",
+        "mainTitle":"Success",
+        "description":" Configuration deleted Successfully",
+        "moreDetails": ""
+    },
+    {
+        "responseCode": "SMCode003",
+        "mainTitle":"Success",
+        "description":" Configuration Updated Successfully",
+        "moreDetails": ""
+    }
+]

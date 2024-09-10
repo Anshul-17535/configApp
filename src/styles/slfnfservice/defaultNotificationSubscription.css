@@ -1,0 +1,16 @@
+.defaultNotificationSubscriptionComponent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.defaultNotificationSubscriptionComponent>*{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    min-width: 15vw;
+}
+.DNSVersionLabel{
+    margin:0px;
+    padding-bottom: 1px;
+    color: #888;
+    font-weight: 100;
+}

@@ -1,0 +1,27 @@
+div.MFGroup{
+    height: 52vh;
+    overflow-y: scroll;
+    overflow: auto;
+}
+div.ExpandAllCloseAll{
+    display: flex;
+    justify-content: flex-end;
+}
+.expandIconGroup{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.expandIconGroup:hover >p{
+    color: #337ab7;
+}
+.closeIconGroup{
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+.closeIconGroup:hover >p{
+    color: #337ab7;
+}

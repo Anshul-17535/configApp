@@ -1,0 +1,49 @@
+{
+    "FormName":"Destination Name",
+    "HasSubForms":"false",
+    "Fields":[
+      {
+        "label": "Destination Name",
+        "mandatory": false,
+        "type": "text",
+        "fieldValue": "",
+        "name": "destinationName",
+        "tooltip": "",
+        "min": "",
+        "max": "",
+        "maxlength": "",
+        "autoFocus": "",
+        "pattern": "",
+        "isArray":"false",
+        "arrayData":[],
+        "defaultValue":"",
+        "hasInnerFields":false,
+        "gridDisplay":true,
+        "formDisplay":true,
+        "error":false,
+        "errorMsg":""
+      },
+      {
+        "label": "Destination Type",
+        "mandatory": false,
+        "type": "text",
+        "fieldValue": "",
+        "name": "destinationType",
+        "tooltip": "",
+        "min": "",
+        "max": "",
+        "maxlength": "",
+        "autoFocus": "",
+        "pattern": "",
+        "isArray":"false",
+        "arrayData":[],
+        "defaultValue":"",
+        "hasInnerFields":false,
+        "gridDisplay":true,
+        "formDisplay":true,
+        "error":false,
+        "errorMsg":""
+      }
+    ]
+  }
+  

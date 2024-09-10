@@ -1,0 +1,21 @@
+.destinationNfService{
+    margin: 1rem 1rem 1rem 0;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+.destinationnfserviceinputgroup{
+    display: flex;
+    align-items: end;
+    column-gap: 5rem;
+    padding-bottom: 1rem;
+}
+.cardHeaderButtonGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
